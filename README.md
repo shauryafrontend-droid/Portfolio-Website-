@@ -3,7 +3,7 @@
 This is my personal portfolio website where I showcase my projects, skills, and contact information.
 
 ## 🚀 Live Website
-🔗 Live Demo: https://your-netlify-link.netlify.app/
+🔗 Live Demo: https://shauryaaggarwalportfolio.netlify.app/
 
 ## 📌 Features
 - Responsive design for all devices
@@ -17,10 +17,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 - HTML
 - CSS
 - JavaScript
-- Tailwind CSS
 - React
-- MySQL
-- PHP
 
 ## 📂 Project Structure
 portfolio-website/
