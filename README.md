@@ -6,7 +6,6 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 🔗 Live Demo: https://shauryapersonalportfoliowebsite.netlify.app/
 
 ## 📌 Features
-- Responsive design for all devices
 - Modern UI design
 - Projects showcase section
 - About me section
