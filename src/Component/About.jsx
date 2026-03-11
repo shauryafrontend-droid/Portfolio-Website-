@@ -23,13 +23,9 @@ const About = ({ darkMode }) => {
       className={`about ${darkMode ? "about-dark" : "about-light"}`}
     >
       <div className="about-container">
-
-        {/* IMAGE */}
         <div className="about-image">
           <img src="/Shaurya.png" alt="Shaurya Aggarwal" />
         </div>
-
-        {/* CONTENT */}
         <div className="about-content">
           <h1>About Me</h1>
           <h2>Frontend Developer & BCA Student</h2>
@@ -62,8 +58,6 @@ const About = ({ darkMode }) => {
           <h3 className="internship-tag">
             🚀 Open to Internship Opportunities
           </h3>
-
-          {/* SOCIAL LINKS */}
           <div className="social-links">
 
             <a
@@ -74,7 +68,7 @@ const About = ({ darkMode }) => {
             </a>
 
             <a
-              href="https://github.com/Shaurya2006-hash"
+              href="https://github.com/shauryafrontend-droid"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
