@@ -1,4 +1,3 @@
-/* ================= GLOBAL RESET ================= */
 
 * {
   margin: 0;
@@ -12,23 +11,15 @@ html, body, #root {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
 }
-
-/* ================= MAIN WRAPPER ================= */
-
 .container {
   min-height: 100vh;
   width: 100%;
 }
-
-/* INNER CONTENT CENTER */
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
-/* ================= THEMES ================= */
-
 .container.dark {
   background: #0f172a;
   color: white;
@@ -53,8 +44,6 @@ body {
   z-index: 9999;
   box-shadow: 0 0 12px #38bdf8;
 }
-
-/* NAVBAR HOVER ANIMATION */
 .nav-links a {
   position: relative;
 }
@@ -73,8 +62,6 @@ body {
 .nav-links a:hover::after {
   width: 100%;
 }
-/* ================= NAVBAR ================= */
-
 .navbar {
   position: fixed;
   top: 0;
@@ -85,7 +72,6 @@ body {
   z-index: 1000;
 }
 
-/* Navbar inner alignment */
 .navbar-content {
   max-width: 1200px;
   margin: auto;
@@ -94,11 +80,42 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width:768px){
 
+.nav-links{
+display:none;
+}
+
+.hero{
+padding:20px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+}
 .nav-links {
   display: flex;
   gap: 30px;
   list-style: none;
+}
+@media (max-width: 768px) {
+  .dot,
+  .cursor-dot,
+  .animated-dot {
+    display: none;
+  }
+}
+
+.nav-right{
+display:flex;
+align-items:center;
+gap:10px;
 }
 
 .nav-links a {
@@ -127,8 +144,6 @@ body {
   cursor: pointer;
   font-weight: 600;
 }
-
-/* ================= HERO ================= */
 
 .hero {
   min-height: 100vh;
@@ -161,8 +176,6 @@ body {
 .typing {
   color: #38bdf8;
 }
-
-/* ================= BUTTONS ================= */
 
 .buttons {
   margin-top: 25px;
@@ -199,8 +212,6 @@ body {
   background: #38bdf8;
   color: black;
 }
-
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 768px) {
   .hero h1 {
