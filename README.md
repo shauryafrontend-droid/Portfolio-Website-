@@ -1,16 +1,56 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website where I showcase my projects, skills, and contact information.
 
-Currently, two official plugins are available:
+## 🚀 Live Website
+🔗 Live Demo: https://your-netlify-link.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+- Responsive design for all devices
+- Modern UI design
+- Projects showcase section
+- About me section
+- Contact form
+- Smooth navigation
 
-## React Compiler
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
+- React
+- MySQL
+- PHP
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
+portfolio-website/
+│
+├── public/
+├── src/
+├── index.html
+├── package.json
+└── README.md
 
-## Expanding the ESLint configuration
+## ⚙️ Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+git clone https://github.com/shauryafrontend-droid/Portfolio-Website-.git
+
+2. Navigate to the project folder
+
+cd Portfolio-Website-
+
+3. Install dependencies
+
+npm install
+
+4. Run the project
+
+npm run dev
+
+## 📬 Contact
+
+If you want to collaborate or have any questions, feel free to reach out.
+
+GitHub: https://github.com/shauryafrontend-droid
